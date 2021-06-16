@@ -21,11 +21,12 @@ Além das implementações desenvolvidas durante a aula **Construindo um jogo de
 - HTML5
 - CSS3
 - JAVASCRIPT - JQUERY
--
+
 ### [🎮](https://emojipedia.org/video-game/) Links usados na criação:
 - Software usado na criação das imagens autorais: [Figma](https://www.figma.com)
 - Documentação: [W3Schools](https://www.w3schools.com/)
 - Desafio: [Bootcamp Js Game Developer](https://web.digitalinnovation.one/track/javascript-game-developer)
+- Musicas: [Youtube](https://www.youtube.com)
 
 ### :video_game: Print Screen:
 ![kerbyscreen](https://user-images.githubusercontent.com/50052600/122221580-c8d15180-ce87-11eb-88c3-f616db01f5f9.png)
