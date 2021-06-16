@@ -5,6 +5,7 @@
     margin: 0;
 	text-decoration: none;
 }
+
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size:16px;
@@ -354,6 +355,7 @@ button {
 
 /* Feedback de informações - Placar de pontos e energias */
 #placar {
+	top: 17px;	
 	width: 450px;
 	height: 32px;
 	position: absolute;
