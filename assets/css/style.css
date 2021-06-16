@@ -356,7 +356,7 @@ button {
 
 /* Feedback de informações - Placar de pontos e energias */
 #placar {
-	margin-top: 17px;
+	padding-top: 17px; !important
 	width: 450px;
 	height: 32px;
 	position: absolute;
