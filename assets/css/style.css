@@ -22,6 +22,7 @@ body {
 }
 
 #fundoGame	{
+	margin-top: 17px;	
 	width:950px;
 	height:630px;
 	background-image:url(../image/fundo_game.jpg);
@@ -355,7 +356,7 @@ button {
 
 /* Feedback de informações - Placar de pontos e energias */
 #placar {
-	top: 17px;	
+	margin-top: 17px;
 	width: 450px;
 	height: 32px;
 	position: absolute;
