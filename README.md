@@ -11,7 +11,7 @@ O jogo **Kerby - kd meu bichinho** faz parte do desafio/projeto proposto pela pl
 Além das implementações desenvolvidas durante a aula **Construindo um jogo de Nave** desenvolvi algumas adicionais para deixar o jogo mais divertido, falta equilibrar as mecanicas corretamente para que o jogo seja mais justo. 
 - O personagem pode se mover livremente pela tela usando as teclas WASD e atacando através do Space.
 - Se os inimigos encostarem a esquerda, você perde uma estrela.
-- Se o aliado/inimigo encostar nos inimigos, você perde x quantidade de pontos.
+- Se o aliado/amigo encostar nos inimigos, você perde x quantidade de pontos.
 - Se você resgatar o aliado, você ganha uma estrela (vida) no placar.
 - Se a sua pontuação ficar <0 você perderá o jogo instantaneamnete.
 - Os pontos adquiridos durante o jogo são somados ou subtraidos no final (caso perca o aliado/amigo) e são exibidos ao final de cada partida.
