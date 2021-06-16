@@ -356,11 +356,11 @@ button {
 
 /* Feedback de informações - Placar de pontos e energias */
 #placar {
-	padding-top: 17px; !important
 	width: 450px;
 	height: 32px;
 	position: absolute;
 	left: 175px;
+	top: 10px;	
 }
 
 h2 {
