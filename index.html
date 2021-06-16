@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Game, KerbyGame, WebDeveloper">
+
+    <!-- Icon Site -->
+    <link rel="shor tcut icon" href="assets/image/icon.ico" type="image/x-icon"/>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+    <title>Kerby Adventures</title>
+</head>
+<body>
+
+    <div id="container">
+        <div id="fundoGame">
+            <div id="inicio">
+                <img src="assets/image/TitleName1.png" alt="Logo Kirby"> <br>
+                <br>
+               <button onclick="start()" class="btnStart" alt="logo Kerby"></button>
+               <img src="assets/image/teclado.png" class="teclado" alt=""> <br>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="myFooter">
+          <p>
+            &copy; 2021 created by <span>&#9829;</span> 
+            <a href="https://github.com/mewmewdevart" target="_blank">Larissa / Mewmew</a>
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- Sons do jogo !-->
+    <audio src="assets/sounds/som.mp3" preload="auto" id="somDisparo"></audio>
+    <audio src="assets/sounds/explosao.mp3" preload="auto" id="somExplosao"></audio>
+    <audio src="assets/sounds/musica_fundo.mp3" preload="auto" id="musica"></audio>
+    <audio src="assets/sounds/gameover.mp3" preload="auto" id="somGameover"></audio>
+    <audio src="assets/sounds/perdido.mp3" preload="auto" id="somPerdido"></audio>	
+    <audio src="assets/sounds/resgate.mp3" preload="auto" id="somResgate"></audio>
+
+        <!-- JS -->
+    <script type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-collision.min.js"></script>
+    <script type="text/javascript" src="assets/js/game.js"></script> 
+
+</body>
+</html>

@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+	text-decoration: none;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	color:white;
+    background-color: #4e1731;
+}
+
+#container	{
+	width:950px;
+	height:auto;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#fundoGame	{
+	width:950px;
+	height:630px;
+	background-image:url(../image/fundo_game.jpg);
+	border-color: white;
+	border-style:solid;
+	
+}
+
+/* GameUI: Interface do jogo no inicio */
+#inicio	{
+	margin-top: 110px;
+	width:950px;
+	height:600px;
+	text-align: center;
+
+}
+
+.btnStart {
+	width:950px;
+	height:33px;
+	background-image:url(../image/btnIdle.png);
+
+}
+
+.btnStart:hover {
+	width:950px;
+	height:33px;
+	background-image:url(../image/btnPassMouse.png);
+}
+
+button {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+}
+
+.teclado	{
+	margin-top: 125px;
+	width: 700px;
+}
+
+/* PERSONAGENS */
+/* Chamando a animação para o kerby e os demais: 
+    Foi necessario usar os prefixos proprietarios dos navegadores para que eles pudessem reconhecer o tipo de annimação e mencionar os keyframes de cada um.
+*/
+
+/* JOGADOR/KERBY */
+#jogador {
+	width:38px;
+	height:36px;
+	position:absolute;
+	left:8px;
+	top:179px;
+	background-image:url(../image/kerby2.png);
+
+}
+.animationKerby {
+	background-image:url(../image/kerby2.png);
+	animation:play0 .5s steps(2) infinite;
+
+       -webkit-animation: play0 .5s steps(2) infinite;
+       -moz-animation: play0 .5s steps(2) infinite;
+       -ms-animation: play0 .5s steps(2) infinite;
+       -o-animation: play0 .5s steps(2) infinite;
+}
+
+@keyframes play0 {
+	from {background-position:0px;}
+	to {background-position:-76px;}
+}
+
+@-webkit-keyframes play0 {
+   from { background-position:0px; }
+     to { background-position: -76px; }
+}
+
+@-moz-keyframes play0 {
+   from { background-position:0px; }
+     to { background-position: -76px; }
+}
+
+@-ms-keyframes play0 {
+   from { background-position:0px; }
+     to { background-position: -76px; }
+}
+
+@-o-keyframes play0 {
+   from { background-position:0px; }
+     to { background-position: -76px; }
+}
+
+/* Animação e menção do inimigo1 : Oq voa*/
+#inimigo1 {
+	width: 44px;
+	height: 36px;
+	position: absolute;
+	left: 689px;
+	top: 253px;
+	background-image:url(../image/inimigo1.png);
+	
+}
+
+.animationInimigo1 {
+    background-image:url(../image/inimigo1.png);
+    animation: play1 .8s steps(2) infinite;
+    -webkit-animation: play1 .3s steps(2) infinite;
+    -moz-animation: play1 .3s steps(2) infinite;
+    -ms-animation: play1 .3s steps(2) infinite;
+    -o-animation: play1 .3s steps(2) infinite; 
+}
+
+@keyframes play1 {
+	from {background-position:0px;}
+	to {background-position:-88px;}
+}
+
+@-webkit-keyframes play1 {
+   from { background-position:0px; }
+     to { background-position: -88px; }
+}
+
+@-moz-keyframes play1 {
+   from { background-position:0px; }
+     to { background-position: -88px; }
+}
+
+@-ms-keyframes play1 {
+   from { background-position:0px; }
+     to { background-position: -88px; }
+}
+
+@-o-keyframes play1 {
+   from { background-position:0px; }
+     to { background-position: -88px; }
+}
+
+/* Animação e menção do inimigo2 : O terrestre/nuvenzestre */
+#inimigo2 {
+	width: 76px;
+	height: 74px;
+	position: absolute;
+	left: 775px;
+	top: 447px;
+	background-image: url(../image/inimigo2.png);
+}
+
+/* Animação do inimigo2 */
+.animationInimigo2 {
+    background-image:url(../image/inimigo2.png);
+    animation: play5 .3s steps(2) infinite;
+    -webkit-animation: play5 .3s steps(2) infinite;
+    -moz-animation: play5 .3s steps(2) infinite;
+    -ms-animation: play5 .3s steps(2) infinite;
+    -o-animation: play5 .3s steps(2) infinite; 
+}
+
+@keyframes play5 {
+	from {background-position:0px;}
+	to {background-position:-152px;}
+}
+
+@-webkit-keyframes play5 {
+   from { background-position:0px; }
+     to { background-position: -152px; }
+}
+
+@-moz-keyframes play5 {
+   from { background-position:0px; }
+     to { background-position: -152px; }
+}
+
+@-ms-keyframes play5 {
+   from { background-position:0px; }
+     to { background-position: -152px; }
+}
+
+@-o-keyframes play5 {
+   from { background-position:0px; }
+     to { background-position: -152px; }
+}
+
+
+/* Animação e menção do amigo/aliado : O peixinho */
+#amigo {
+	width: 56px;
+	height: 54px;
+	position: absolute;
+	left: 10px;
+	top: 464px;
+	background-image:url(../image/amigo.png);
+}
+
+.animationAmigo {
+	background-image:url(../imgs/amigo.png);
+	animation:play2 .4s steps(12) infinite;
+	-webkit-animation: play2 .9s steps(2) infinite;
+       -moz-animation: play2 .9s steps(2) infinite;
+        -ms-animation: play2 .9s steps(2) infinite;
+         -o-animation: play2 .9s steps(2) infinite;
+}
+
+/* Indicando o tamanho do frame do amigo */
+@keyframes play2 {
+	from {background-position:0px;}
+	to {background-position:-112px;}
+}
+
+@-webkit-keyframes play2 {
+   from { background-position:    0px; }
+     to { background-position: -112px; }
+}
+
+@-moz-keyframes play2 {
+   from { background-position:    0px; }
+     to { background-position: -112px; }
+}
+
+@-ms-keyframes play2 {
+   from { background-position:    0px; }
+     to { background-position: -112px; }
+}
+
+@-o-keyframes play2 {
+   from { background-position:    0px; }
+     to { background-position: -112px; }
+}
+
+/* Disparo - Jogador/Kerby atirando */
+#disparo {
+	width: 98px;
+	height: 32px;
+	position: absolute;
+	background-image: url(../image/disparo.png);
+}
+
+/* Explosao */
+#explosao1, #explosao2 {
+	width:134px;
+	height:130px;
+	position:absolute;
+}
+
+/* Explosão3: Aliado/Amigo sendo resgatado pelo Jogador-Menção */
+#explosao3 {
+	width:134px;
+	height:130px;
+	position:absolute;
+}
+/* Explosão3: Aliado/Amigo sendo resgatado pelo Jogador-Animação */
+.anima4 {
+	width:134px;
+	height:130px;
+	background-image:url(../image/explosao_amigo.png);
+	animation:play3 .5s steps(7) infinite;
+	-webkit-animation: play3 .5s steps(5) infinite;
+       -moz-animation: play3 .5s steps(5) infinite;
+        -ms-animation: play3 .5s steps(5) infinite;
+         -o-animation: play3 .5s steps(5) infinite;
+}
+
+@keyframes play3 {
+	from {background-position:0px;}
+	to {background-position:-670px;}
+}
+
+@-webkit-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -670px; }
+}
+
+@-moz-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -670px; }
+}
+
+@-ms-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -670px; }
+}
+
+@-o-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -670px; }
+}
+
+
+/* Explosão4: Aliado/Amigo colidindo com o Inimigo */
+#explosao4 {
+	width:134px;
+	height:130px;
+	position:absolute;
+}
+/* Explosão4: Aliado/Amigo colidindo com o Inimigo */
+.anima5 {
+	width:134px;
+	height:130px;
+	background-image:url(../image/explosao_amigoinimigo.png);
+	animation:play4 .5s steps(7) infinite;
+	-webkit-animation: play4 .5s steps(7) infinite;
+       -moz-animation: play4 .5s steps(7) infinite;
+        -ms-animation: play4 .5s steps(7) infinite;
+         -o-animation: play4 .5s steps(7) infinite;
+}
+
+@keyframes play4 {
+	from {background-position:0px;}
+	to {background-position:-938px;}
+}
+
+@-webkit-keyframes play4 {
+   from { background-position:    0px; }
+     to { background-position: -938px; }
+}
+
+@-moz-keyframes play4 {
+   from { background-position:    0px; }
+     to { background-position: -938px; }
+}
+
+@-ms-keyframes play4 {
+   from { background-position:    0px; }
+     to { background-position: -938px; }
+}
+
+@-o-keyframes play4 {
+   from { background-position:    0px; }
+     to { background-position: -938px; }
+}
+
+
+/* Feedback de informações - Placar de pontos e energias */
+#placar {
+	width: 450px;
+	height: 32px;
+	position: absolute;
+	left: 175px;
+}
+
+h2 {
+	font-size:16px;
+	color:#FFF;
+}
+
+/* STATUS - ESTRELA */
+#energia {
+	/*width: 98px;
+	//height: 32px;*/
+	width: 140px;
+	height: 32px;
+	position: absolute;
+	left: 20px;
+	top: 10px;	
+}
+
+/* GameUI: Interface do jogo após derrota */
+h3 {
+	width:950px;
+	height:33px;
+	background-image:url(../image/btnPlayAgain.png);
+    cursor:pointer;
+}
+
+h3:hover {
+	width:950px;
+	height:33px;
+	background-image:url(../image/btnPassPlayAgain.png);
+    cursor:pointer;
+}
+
+
+
+#fim {
+	margin-top: 110px;
+	width:950px;
+	height:600px;
+	text-align: center;
+
+	background-image:url(../image/amigoKibeDead.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+/* Meu Footer - Assinatura */
+footer {
+	margin-top: 20px;
+	position: relative;
+	text-align: center;
+}
+a	{
+	color: rgb(235, 165, 212);
+}
+span {
+  position: relative;
+  display: inline-block;
+  color: var(--purple); 
+  animation: hearts 0.6s cubic-bezier(0.18, 0.89, 0.29, 1.05) infinite;
+}
+
+
+/* Small Screen - Heart */
+@-moz-keyframes hearts {
+  50% {
+    transform: scale(1.4);
+  }
+}
+@-webkit-keyframes hearts {
+  50% {
+    transform: scale(1.4);
+  }
+}
+@-o-keyframes hearts {
+  50% {
+    transform: scale(1.4);
+  }
+}
+@keyframes hearts {
+  50% {
+    transform: scale(1.4);
+  }
+}
