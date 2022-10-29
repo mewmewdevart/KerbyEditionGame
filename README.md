@@ -1,39 +1,57 @@
-# Kerby - kd meu bichinho edition
-
 <p align="center">
-<img src="https://user-images.githubusercontent.com/50052600/122164744-9b67b200-ce4d-11eb-801f-0a555b0756c1.png" alt="Logo Kerby" width="50%"/>
+<img src="https://user-images.githubusercontent.com/50052600/122164744-9b67b200-ce4d-11eb-801f-0a555b0756c1.png" alt="kerby" width="50%"/>
+
 </P>
 
-⭐ Sobre o Projeto:
-O jogo **Kerby - kd meu bichinho** faz parte do desafio/projeto proposto pela plataforma de cursos gratuitos [Digital Innovation One](https://web.digitalinnovation.one/home) no Bootcamp de Javascript Game Developer, usando HTML5, CSS3, JAVASCRIPT e JQUERY.
+<h1 align="center">
+  KerbyGame
+</h1>
 
-⭐Implementações adicionais: 
-Além das implementações desenvolvidas durante a aula **Construindo um jogo de Nave** desenvolvi algumas adicionais para deixar o jogo mais divertido, falta equilibrar as mecanicas corretamente para que o jogo seja mais justo. 
-- O personagem pode se mover livremente pela tela usando as teclas WASD e atacando através do Space.
-- Se os inimigos encostarem a esquerda, você perde uma estrela.
-- Se o aliado/amigo encostar nos inimigos, você perde x quantidade de pontos.
-- Se você resgatar o aliado, você ganha uma estrela (vida) no placar.
-- Se a sua pontuação ficar <0 você perderá o jogo instantaneamnete.
-- Os pontos adquiridos durante o jogo são somados ou subtraidos no final (caso perca o aliado/amigo) e são exibidos ao final de cada partida.
+<p align="center">
+	<b><i>Game-KerbyEdition created during the Digital Innovation One's JavaScript Game Developer bootcamp..</i></b>
+</p>
 
+<p align="center">
+	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/mewmewdevart/Game-KerbyEdition?color=FF6EAF" />
+	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/mewmewdevart/Game-KerbyEdition?color=FF6EAF" />
+	<img alt="Main language" src="https://img.shields.io/github/languages/top/mewmewdevart/Game-KerbyEdition?color=FF6EAF"/>
+	<img alt="Main language" src="https://img.shields.io/github/license/mewmewdevart/Game-KerbyEdition?color=FF6EAF"/>
+</p>
 
-### ⚙️ Tecnologias Utilizadas:
-- HTML5
-- CSS3
-- JAVASCRIPT - JQUERY
+## 💡 About the project
 
-### [🎮](https://emojipedia.org/video-game/) Links usados na criação:
-- Software usado na criação das imagens autorais: [Figma](https://www.figma.com)
-- Documentação: [W3Schools](https://www.w3schools.com/)
-- Desafio: [Bootcamp Js Game Developer](https://web.digitalinnovation.one/track/javascript-game-developer)
-- Musicas: [Youtube](https://www.youtube.com)
+>_The game **Kerby - kd meu bichinho** . The project presendted in this repository is the part of a series of challenges created by the free course platform [Digital Innovation One](https://web.digitalinnovation.one/home)  - JavaScript for Games Bootcamp. <br>
+>_Challenge: Develop a game using HTML5, CSS3 and JavaScript. 
 
-### :video_game: Print Screen:
+## ⚙️ Implementations
+
+In addition to the implementations developed during the class **Building a Ship Game** I developed some additional actions to make the game more fun and necessary to balance the mechanics correctly so that the game is fairer.
+* The character can move around the screen using the WASD keys and attacking through Space.
+* If enemies lean left, you lose a star.
+* If the ally/friend touches enemies, you lose x amount of points.
+* You get a star (life) on
+* If your rating is <0 you will lose the game instantly.
+* Points acquired during the game are added or subtracted at the end (in case you lose your ally/friend) and are displayed at the end of each game.
+
+## 🦄 Tech
+
+* HTML5
+* CSS3
+* JAVASCRIPT - Owl Carousel
+
+## 📌 Credits
+
+* Software for UI Design: [Figma](https://www.figma.com)
+* Documentation: [W3Schools](https://www.w3schools.com/)
+* Challenge: [Bootcamp Js Game Developer](https://web.digitalinnovation.one/track/javascript-game-developer)
+* Music: [Youtube](https://www.youtube.com)
+
+## ✨ PrintScreen:
 ![kerbyscreen](https://user-images.githubusercontent.com/50052600/122221580-c8d15180-ce87-11eb-88c3-f616db01f5f9.png)
 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/50052600/122225117-274bff00-ce8b-11eb-9a5e-924260675a99.gif" alt="Logo Kerby" width="30%"/>
 </P>
-<p align="center"> Desenvolvido com 💜 por Larissa Cristina Benedito. </p>
 
+<p align="center"> Developed with love 💜 by Larissa Cristina Benedito (Mewmew/Larcrist). </p>
